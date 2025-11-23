@@ -4,10 +4,13 @@ header {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    min-height: 450px;
 }
 
 img[alt="background"] {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 .advertise_group {
@@ -53,6 +56,8 @@ img[alt="background"] {
 
 img[alt="advertise"] {
     width: 520px;
+    height: auto;
+    display: block;
 }
 
 .adver_link {

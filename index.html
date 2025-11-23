@@ -13,12 +13,18 @@
     <title>winner design 7</title>
 </head>
 <body>
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
     <nav class="top-nav">
         <h1>
             <p>コールセンターを解剖するWebメディア</p>
             <img src="./assets/images/logo.png" alt="logo">
         </h1>
-        <ul class="nav-link">
+        <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-link" id="navLinks">
             <li>
                 <a href="">
                     <p>新着記事</p>
@@ -50,7 +56,7 @@
                 </a>
             </li>
         </ul>
-        <div>
+        <div class="nav-icon">
             <img src="./assets/images/top_loading.png" alt="loading">
         </div>
     </nav>
@@ -379,34 +385,34 @@
             </div>
         </section>
     </main>
-    <footer class="relative">
+    <footer>
         <img src="./assets/images/footer_back.png" alt="footer_back">
-        <div class="foot_info absolute flex">
+        <div class="foot_info flex">
             <div class="foot_content">
                 <div class="flex">
                     <img src="./assets/images/logo.png" alt="logo">
                     <p>とは？</p>
                 </div>
-                <p>
-                    この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-                    この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-                    この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-                    この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
             </div>
             <div class="footer_btn">
                 <button class="center">もっと詳しく</button>
             </div>
         </div>
-        <div class="absolute">
+        <div class="foot_bottom">
             <ul class="foot_link">
-                <li class="relative"><a href="#"><p>このサイトについて</p></a></li>
-                <li class="relative"><a href="#"><p>お問い合わせ</p></a></li>
-                <li class="relative"><a href="#"><p>利用規約</p></a></li>
-                <li class="relative"><a href="#"><p>個人情報保護方針</p></a></li>
-                <li class="relative"><a href="#"><p>企業情報</p></a></li>
+                <li><a href="#"><p>このサイトについて</p></a></li>
+                <li><a href="#"><p>お問い合わせ</p></a></li>
+                <li><a href="#"><p>利用規約</p></a></li>
+                <li><a href="#"><p>個人情報保護方針</p></a></li>
+                <li><a href="#"><p>企業情報</p></a></li>
             </ul>
             <a href="#header" class="center">© Staff First Inc.</a>
         </div>
     </footer>
+    <script src="./assets/script/navigation.js"></script>
 </body>
 </html>
