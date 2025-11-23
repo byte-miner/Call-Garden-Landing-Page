@@ -1,0 +1,8 @@
+@keyframes flowToLeft {
+    from {
+        left: 1500px;
+    }
+    to {
+        left: -2700px;
+    }
+}
